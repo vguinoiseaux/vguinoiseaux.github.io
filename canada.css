@@ -1,0 +1,164 @@
+body{
+  background-color: #0f1467;
+  padding:0;
+  margin:50px 250px 50px 50px ;
+}
+.body2{
+  background-color: #0f1467;
+  padding:0;
+  margin:50px 50px 50px 50px ;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50px;
+    background-color: rgba(255, 228, 119, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+	position: absolute; top: 50px; right: 50px;
+}
+
+.styled:hover {
+    background-color: rgba(255, 215, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+div#Menu span.dot,		
+div#Menu hr {			
+  display: none }
+
+div#Menu,
+div.map { 
+  position: absolute;
+  width: 11em; height: auto;
+  top: 1em; right: 1em; bottom: 1em; left: auto;
+  background: #9fa6e3 url(dogsear.png) bottom right no-repeat }
+div#Menu p.navhead, div#Menu a,
+div.map p, div.map li, div.map h2 {
+  display: block;
+  font-size: medium;
+  margin: 0.55em 1.63em 0.44em -0.9em;
+  padding: 0.38em 1em;
+  text-indent: 0;
+  text-align: left;
+  background: #ffeda7 url(sandydogsear.png) bottom right no-repeat;
+  color: white;
+  border-bottom: none;		
+  list-style: none }		
+html[dir=rtl] div.map p, html[dir=rtl] div.map li, html[dir=rtl] div.map h2 {
+  padding-right: 18px;		
+  text-align: right }
+div.map li li {			
+  margin: 0;
+  padding: 0;
+  background: #aa7;
+  color: white}
+div.map > ul {
+  margin: 0;
+  padding: 0 }
+div#Menu p.navhead {
+  font-weight: bold }
+div#Menu a:link, div#Menu a:visited,
+div.map a:link, div.map a:visited {
+  font-style: italic;
+  text-decoration: none;
+  color: blue }
+div.map a:hover {
+  background: #CCC;
+  color: #000 }
+div#Menu:before,
+div.map:before {
+  content: "Pourquoi Visiter Le Canada?";
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.1em 0.5em;
+  color: #ffeda7;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: 0.25em }
+html[dir=rtl] div.map:before {
+  text-align: right }
+  
+.mon_image {
+float: left;
+margin: 0px 10px 10px 10px;
+}
+.mon_image0 {
+float: left;
+margin: -125px 10px 10px 10px;
+}
+.mon_image1 {
+float: right;
+margin: -150px 10px 10px 10px;
+}
+.mon_image2 {
+float: right;
+margin: 0px 10px 10px 10px;
+}
+.mon_image3 {
+float: center;
+margin: 110px 10px 10px 90px;
+}
+.mon_image4 {
+float: center;
+margin: 10px 10px 10px 150px;
+}
+.mon_image5 {
+float: left;
+margin: 450px 10px 10px 10px;
+}
+.mon_image6 {
+float: right;
+margin: 450px 10px 10px 10px;
+}
+.mon_image7 {
+float: right;
+margin: -370px 10px 10px 10px;
+}
+.mon_image8 {
+float: center;
+margin: 20px 10px 10px -70px;
+height: 40%;
+width: 40%;
+}
+.mon_image9 {
+float: left;
+margin: 280px 10px 10px 100px;
+}
+.mon_image10 {
+float: right;
+margin: 280px 100px 10px -100px;
+}
+.bigger {
+  font-size: larger;
+}
+
+.big {
+  font-size: 5em;
+}
+.text {
+  font-size: larger;
+  margin-right: 550px;
+}
+.text2 {
+  font-size: larger;
+  margin-right: 610px;
+  margin-left: 400px
+}
+
+figure {
+  display: table;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
+}
